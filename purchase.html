@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>ACCC Purchase</title>
+</head>
+<body class="gneurschk">
+    <nav class="navbar bg-dark navbar-dark sticky-top">
+        <div class="container">
+          <a class="navbar-brand" href="index.html">
+            <i class="fa-solid fa-bomb"></i>
+            ACCC
+          </a>
+        </div>
+      </nav>
+    <h2>Please enter this information to purchase:</h2>
+    <form action="thankyou.html" id="pform">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Your email address" required>
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Your Home/Business Address</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="1" placeholder="123 Streetname Street City State/Province Country" required></textarea>
+          </div>
+    <select class="form-select" aria-label="Default select example" required>
+        <option selected>Pick your delivery speed.</option>
+        <option value="1">2 weeks - FREE!</option>
+        <option value="2">1 week - 10% of cave price added on</option>
+        <option value="3">3 days - 25% of cave price added on</option>
+        <option value="4">Same-day - 50% of cave price added on (NOTE: not available for international purchases)</option>
+      </select>
+      
+      <input type="submit" class="btn btn-secondary" form="pform"></input>
+      <a href="index.html" class="btn btn-secondary" id="pbutton">Cancel</a>
+      </form>
+      
+      
+</body>
+</html>

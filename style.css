@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Acme&display=swap');
+
+body {
+    font-family: 'Acme', sans-serif;
+}
+#centerpeice {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.4)), url("cave.jpeg");
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+    color: #587c99;
+  }
+
+.lead {
+    color: orangered;
+
+}
+
+.gneurschk {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.4)), url("gneurschk.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
+
+
+.card-img-top {
+    width: auto;
+    height: 400px;
+    
+}
+
+.container-fluid {
+    margin-left: 162.5px;
+}
+#pform  {
+    margin: 10px;
+}
+#pbutton {
+    margin: 10px;
+}
+
+.thanks {
+    background: -webkit-linear-gradient(rgba(0, 0, 0, 0.9), rgba(255, 255, 255, 0.4)), url("D.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    color: white;
+}
